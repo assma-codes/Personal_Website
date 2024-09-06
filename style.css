@@ -1,0 +1,212 @@
+style.css
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/****************header**********************/
+
+header {
+    background-color:rgb(237, 246, 243);
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.logo{
+text-decoration: none;
+color: brown;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1.8em;
+padding-left: 20px;
+}
+/****************navigation**********************/
+.navigation a{
+    text-decoration: none;
+    color: brown;
+    text-transform;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-right: 100px;
+}
+
+.navigation a:hover{
+    color: #d27979;
+}
+/****************main section**********************/
+section {
+    padding: 100px 100px;
+}
+
+.main {
+width: 100%;
+min-height: 50vh;
+display: flex;
+align-items: center;
+/*background: url(images/my-photo.jpg) no-repeat;*/
+background-position: right;
+background-attachment: fixed;
+background-color:rgb(134, 108, 28);
+opacity: 50;
+}
+
+.main h2 {
+    color:white; 
+    font-size: 2em;
+    font-weight: 600;  
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+color: #ac3939;
+background-color: #f2d9d9;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 10px;
+margin-bottom: 40px;
+transform: 0.7s;
+}
+
+.main-btn:hover {
+    background-color: #d27979;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #f2d9d9;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #ac3939;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f2d9d9;
+    width: 15.25em;
+    box-shadow: 0 5px rgba(#f2d9d9, 15%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 16px;
+    transform: 0.7s;
+}
+
+.card:hover {
+    transform: scale(1.1); 
+}
+
+.icon {
+    color: rgb(134, 108, 28);
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #ac3939;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color:#5830c4;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color:#ac3939;
+    border: 1px solid white;
+    min-height: 14em;
+    width:20em;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px;
+    transform: 0.7s ease;
+    
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+padding: 1em;
+
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: black;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #b6ca22;
+}
+
+.more-details:hover {
+    color: #5f6809;
+}
