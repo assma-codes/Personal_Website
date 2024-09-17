@@ -6,7 +6,7 @@ style.css
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-/****************header**********************/
+/****************header style**********************/
 
 header {
     background-color: white;
@@ -51,12 +51,8 @@ width: 100%;
 min-height: 50vh;
 display: flex;
 align-items: center;
-/*background: url(images/p3.jpg) no-repeat;
-background-position: right;
-background-attachment: fixed;*/
 background-color:rgb(153, 10, 124);
 background: linear-gradient(rgb(52, 1, 1),rgb(153, 10, 124));
-/*background-color: rgb(125, 10, 64);*/
 opacity: 50;
 }
 
@@ -159,6 +155,8 @@ transform: 0.7s;
     margin: 10px;
 }
 
+/****************projects style**********************/
+
 .projects {
     background: linear-gradient(rgb(52, 1, 1),rgb(153, 10, 124));
 }
@@ -221,6 +219,8 @@ padding: 1em;
     color: rgb(52, 1, 1);
 }
 
+/****************contact style**********************/
+
 .contact {
     background: linear-gradient(rgb(52, 1, 1),rgb(153, 10, 124));
 
@@ -251,6 +251,8 @@ padding: 1em;
     color: white;
 }
 
+/****************footer style**********************/
+
 .footer{
     display: flex;
     justify-content: space-between;
@@ -272,6 +274,9 @@ padding: 1em;
 .footer-title span{
     color: red;
 }
+
+
+/****************devices compatibility (responsive pages)**********************/
 
 @media (max-width:1023px) {
     header{
